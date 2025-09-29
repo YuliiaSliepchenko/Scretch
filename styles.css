@@ -805,6 +805,18 @@ body {
     border-radius: 24px;
     padding: 32px;
 }
+.contact-form-info {
+    background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+    border-radius: 24px;
+    padding: 32px;
+}
+
+.contact-form-info h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 24px;
+}
 
 .contact-form-wrapper h3 {
     font-size: 24px;
