@@ -21,7 +21,7 @@
                     <div class="logo-text">
                         <a class="header-logos" href="https://yuliiasliepchenko.github.io/goit-markup-hw-08/"><span class="logo-text"><h1>ItEnAi</h1>
                         </span></a>
-                            <p>3D School</p>
+                            <p>IT School</p>
                     </div>
                 </div>
 
@@ -114,12 +114,19 @@
                 </div>
 
                 <div class="hero-right">
-                    <div class="hero-image">
-                        <img src="./images/adaptive/Scratch.png" alt="Constract">
-                        <div class="floating-element floating-3d"><img src="./images/adaptive/favavtItEnAi.png" alt="logo"></div>
-                        <div class="floating-element floating-users">👥</div>
-                    </div>
-                </div>
+  <div class="hero-image">
+    <div class="hero-image-inner">
+      <img src="./images/adaptive/Scratch.png"
+           alt="Roblox: програмування">
+    </div>
+
+    <!-- бейджі залишаються поверх, ПІСЛЯ .hero-image-inner -->
+    <div class="floating-element floating-3d">
+      <img src="./images/adaptive/favavtItEnAi.png" alt="logo ItEnAi">
+    </div>
+    <div class="floating-element floating-users">👥</div>
+  </div>
+</div>
             </div>
         </div>
     </section>
@@ -294,7 +301,7 @@
                     <div class="stat-label">Рейтинг курсу</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number gradient-text">11/7</div>
+                    <div class="stat-number gradient-text">8/7</div>
                     <div class="stat-label">Підтримка</div>
                 </div>
             </div>
@@ -334,19 +341,50 @@
             </div>
 
             <!-- Testimonial -->
-            <div class="testimonial">
-                <div class="testimonial-content">
-                    <div class="quote">"</div>
-                    <blockquote>
-                        Взагалі думав що курс буде якийсь дуже простий і не цікавий,
-                        але виявилось ,що він дуже цікавий і пізнавальний, донька
-                        навчилася програмувати базові скрипти і їх застосування,Дякую!
-                    </blockquote>
-                    <div class="testimonial-author">
-                        Анатолій Борищенко, тато учениці
-                    </div>
-                </div>
-            </div>
+<section class="testimonials">
+  <div class="testimonial active">
+    <div class="testimonial-content">
+      <div class="quote">"</div>
+      <blockquote>
+Мій син відвідує курс Scratch у школі ItEnAi — і це просто знахідка!
+Він із захопленням створює свої перші мультики та ігри, а ще навчився
+логічно мислити та планувати свої проєкти. Чудовий старт у програмуванні!
+      </blockquote>
+      <div class="testimonial-author">Оксана Левченко, мама учня</div>
+    </div>
+  </div>
+
+  <div class="testimonial">
+    <div class="testimonial-content">
+      <div class="quote">"</div>
+      <blockquote>
+Донька обожнює курс Scratch у школі ItEnAi.
+Викладач пояснює так доступно, що вона самостійно створює історії
+з персонажами, а потім із гордістю показує їх родині.
+Надзвичайно цікаво і корисно!
+      </blockquote>
+      <div class="testimonial-author">Ірина Ткач, мама учениці</div>
+    </div>
+  </div>
+
+  <div class="testimonial">
+    <div class="testimonial-content">
+      <div class="quote">"</div>
+      <blockquote>
+Курс Scratch допоміг моєму сину відкрити творчість у програмуванні.
+Він тепер сам вигадує персонажів, рухи та звуки — усе власноруч!
+Дякую школі ItEnAi за мотивацію та підтримку дітей у навчанні!
+      </blockquote>
+      <div class="testimonial-author">Володимир Петренюк, тато учня</div>
+    </div>
+  </div>
+
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
         </div>
     </section>
 
@@ -374,9 +412,7 @@
                         <li><span class="check">✓</span>Практичні завдання</li>
                         <li><span class="check">✓</span>Сертифікат про завершення</li>
                         <li><span class="check">✓</span>Чат підтримки</li>
-                        <li><span class="check">✓</span>Миттєва підтримка викладача</li>
                         <li><span class="check">✓</span>Додаткові проєкти та завдання</li>
-                        <li><span class="check">✓</span>Підготовка портфоліо</li>
                     </ul>
                     <button class="btn btn-outline pricing-btn" onclick="scrollToSection('contact')">Обрати план</button>
                 </div>
@@ -393,10 +429,8 @@
                     <ul class="features-list">
                         <li><span class="check">✓</span>24 уроки</li>
                         <li><span class="check">✓</span>Персоналізована програма</li>
-                        <li><span class="check">✓</span>Безлімітний доступ до матеріалів</li>
-                        <li><span class="check">✓</span>Миттєва підтримка викладача</li>
+                        <li><span class="check">✓</span>Практичні завдання</li>
                         <li><span class="check">✓</span>Додаткові проєкти та завдання</li>
-                        <li><span class="check">✓</span>Підготовка портфоліо</li>
                         <li><span class="check">✓</span>Рекомендації для подальшого навчання</li>
                         <li><span class="check">✓</span>Гарантія результату</li>
                     </ul>
@@ -477,7 +511,7 @@
                             <div class="contact-icon contact-location">📍</div>
                             <div>
                                 <div class="contact-title">Адреса</div>
-                                <div class="contact-value">м. Кременчук, вул. Полковника Гегечкорі ,б.29</div>
+                                <div class="contact-value">м. Кременчук, вул. Полковника Гегечкорі б.29</div>
                             </div>
                         </div>
                     </div>
@@ -535,7 +569,7 @@
                     <div class="footer-contacts">
                         <p>📞 +380 (93) 14-80-343</p>
                         <p>✉️ schoolitenai@gmail.com</p>
-                        <p>📍 м. Кременчук, вул. Полковника Гегечкорі ,б.29</p>
+                        <p>📍 м. Кременчук, вул. Полковника Гегечкорі б.29</p>
                         <p>🕒 Пн-Пт: 10:00-21:00</p>
                     </div>
                 </div>
@@ -555,5 +589,6 @@
 
     <script src="script.js"></script>
     <script src="./js/form.js"></script>
+    <script src="./js/slider.js"></script>
 </body>
 </html>
